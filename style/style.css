@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background: rgb(37, 37, 58);
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+
+div#app {
+  background: rgb(224, 224, 224);
+  border-radius: 5px;
+}
+div#app form {
+  display: grid;
+  grid-template-columns: 50vw;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-content: center;
+}
+div#app input {
+  padding: 10px;
+  outline: none;
+}
+div#app button {
+  background: #23f1b4;
+  padding: 10px;
+}
+div#app button:hover {
+  background: #6fffd4;
+  cursor: pointer;
+}
+div#app input, div#app button {
+  margin: 15px;
+  border: none;
+  border-radius: 8px;
+}/*# sourceMappingURL=style.css.map */
